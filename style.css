@@ -107,9 +107,9 @@
     .card {
       transform-style: preserve-3d;
       min-height: 90vh;
-      width: 35rem;
+      width: 22rem;
       border-radius: 30px;
-      box-shadow: 0 20px 20px rgb(0 0 0 / 20%), 0px 0px 50px rgb(0 0 0 / 20%);
+     
     
     } 
   
@@ -137,15 +137,24 @@
       text-align: center;
   }
   
+  .purchase {
+    margin-top: 2rem;
+    transition: all 0.75s ease-out;
+    margin-bottom: 2rem;
+  }
   .purchase button {
     width: 100%;
     padding: 1rem 0rem;
-    background: #f54642;
     border: none;
     color: white;
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
   }
-  
+
+  .hide-menu {
+    display: none !important;
   }
+
+
+}
